@@ -5,10 +5,10 @@ import Navbar from './component/Navbar'
 import Footer from './component/Footer'
 import ScrollToTop  from './component/ScrollToTop';
 
-import LandingPage from './pages/LandingPage'
-import AboutPage from './pages/AboutPage'
-import ProductsPage from './pages/ProductsPage'
-import ContactPage from './pages/ContactPage'
+import LandingPage from './component/pages/LandingPage'
+import AboutPage from './component/pages/AboutPage'
+import ProductsPage from './component/pages/ProductsPage'
+import ContactPage from './component/pages/ContactPage'
 
 function AnimatedRoutes() {
   const location = useLocation();
