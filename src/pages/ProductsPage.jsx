@@ -64,7 +64,7 @@ function ProductsPage() {
 
   return (
     <section id="product">
-      <h2>產品介紹</h2>
+      <h2> 產品介紹 </h2>
       <div className="product_container">
         {products.map((product) => (
           <div
