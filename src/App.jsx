@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import './App.css'
@@ -31,7 +31,7 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <Router basename="/TS_web" >
+    <Router basename="/" >
       <ScrollToTop />
       <Navbar />
       <AnimatedRoutes />
