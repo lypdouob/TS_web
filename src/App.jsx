@@ -31,7 +31,7 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <Router >
+    <Router  Basename="/">
       <ScrollToTop />
       <Navbar />
       <AnimatedRoutes />
