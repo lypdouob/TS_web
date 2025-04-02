@@ -8,7 +8,7 @@ function Navbar() {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-  // 點擊菜單項後關閉菜單
+
   const handleMenuItemClick = () => {
     setMenuOpen(false);
   };
@@ -18,7 +18,6 @@ function Navbar() {
       <Link className="logo" to="/">
         <img src={logo} alt="logo" />初上石股份有限公司
       </Link>
-
       <div className="menu_container">
         <button onClick={toggleMenu}>
           ☰
